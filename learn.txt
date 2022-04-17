@@ -11,6 +11,7 @@ struct TreeNode {
 	TreeNode *right;
 	};
 //二叉树的前序遍历
+//二叉树
 vector<int>print(TreeNode * root) {
 	vector<int> res;
 	stack<TreeNode *> st;
@@ -31,4 +32,5 @@ int main () {
 	
 
 	return 0;
+
 }
